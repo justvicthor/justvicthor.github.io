@@ -1,0 +1,144 @@
+{
+  "hero": {
+    "profileImage": "/src/assets/images/profile.png",
+    "cvPath": "/public/CV_PiervitoCreanza_public.pdf",
+    "title": "Piervito Creanza",
+    "badge": "Computer Engineering Student",
+    "description": "Since childhood, I have always been passionate about computer science and its applications. Before starting a BSc in Computer Engineering, I began programming as a self-taught learner at the age of 14. Although I am deeply curious about how things work and the theory behind them, I am also a very pragmatic person who wants to translate knowledge into practice, working on personal projects trying to make everyday life a little easier."
+  },
+  "projects": {
+    "title": "Projects",
+    "description": "A selection of personal projects.",
+    "icon": "archive",
+    "iconAlt": "archive icon",
+    "items": [
+      {
+        "title": "iFame",
+        "description": "Personal project about the meal scheduler optimization problem. The algorithm utilizes a categorized list of meals and strategically assigns them to the calendar while adhering to numerous configurable constraints. The project is developed in Java using OptaPlanner and relies on a MySQL database.",
+        "tags": ["Java", "OptaPlanner", "MySQL"],
+        "githubRepo": {
+          "profileName": "PiervitoCreanza",
+          "repoName": "iFame"
+        }
+      },
+      {
+        "title": "GenScore retraining",
+        "description": "Project concerning the retraining of GenScore, a generalized protein–ligand scoring framework based on machine learning. GenScore is a state-of-the-art model employed in drug discovery to calculate the affinity degree between proteins and ligands.",
+        "tags": ["Python", "PyTorch", "Machine Learning", "AI"],
+        "githubRepo": {
+          "profileName": "PiervitoCreanza",
+          "repoName": "GenScore_retrainin"
+        }
+      },
+      {
+        "title": "R-Esisti Education - Electron app development",
+        "description": "Small desktop Electron app based on Vue.js to assist R-Esisti Education, a small child pedagogy center, in managing communications with their clients. The app sends a welcome email to new clients containing a link to a shared drive folder where they can upload files to share with the office.",
+        "tags": ["Electron", "Google Drive APIs", "Vue.js"]
+      },
+      {
+        "title": "Home Server",
+        "description": "In-house Ubuntu server capable of hosting private websites, RESTful APIs, and various other small projects. Moreover, it functions as a home centre through Plex media server and Home Assistant. These services are orchestrated to run autonomously within isolated Docker containers.",
+        "tags": ["Ubuntu", "Docker", "Nginx", "DevOps"]
+      },
+      {
+        "title": "Liceo De Giorgi - Website development",
+        "description": "Website developed from scratch dedicated to new students of Liceo Scientifico Cosimo De Giorgi. The site is based on Jekyll and is constantly updated by non-developers through a headless cms and an auto-build feature based on Github actions.",
+        "tags": [
+          "Jekyll",
+          "GitHub Actions",
+          "Adobe Illustrator",
+          "HTML",
+          "CSS"
+        ],
+        "githubRepo": {
+          "profileName": "PiervitoCreanza",
+          "repoName": "orientamento.liceodegiorgi.it"
+        }
+      },
+      {
+        "title": "Google Meet Timer - Chrome extension",
+        "description": "Chrome extension that gathered over 20,000 downloads and proved particularly useful during the COVID-19 pandemic. The extension added a timer feature to the Google Meet video conferencing plat- form, enabling users to better manage their time during meetings. In May 2021, I sold Google Meet Timer to a developer who was interested in integrating the product into their own extension.",
+        "tags": ["Chrome Extension", "VPS", "Multi-User"],
+        "githubRepo": {
+          "profileName": "PiervitoCreanza",
+          "repoName": "GoogleMeetTimer"
+        }
+      },
+      {
+        "title": "LiceaCard - Platform development",
+        "description": "Web application developed to provide digital discount cards for selected local stores. The back-end is based on Google Firestore, while the front-end was developed from scratch. It is based on Vue.js and Google Authentication to ensure secure access to the platform.",
+        "tags": ["Google Firebase", "NoSQL", "Authentication", "Vue.js"],
+        "githubRepo": {
+          "profileName": "PiervitoCreanza",
+          "repoName": "card.lecosimo.it"
+        }
+      }
+    ]
+  },
+  "workExperience": {
+    "title": "Work & Internships",
+    "description": "A selection of my work experience.",
+    "icon": "briefcase-02",
+    "iconAlt": "briefcase icon",
+    "items": [
+      {
+        "title": "Volunteering - Developer",
+        "date": "2019 - 2021",
+        "description": "I worked as a developer for the student newspaper lecosimo.it. My role was to develop and maintain the website, its APIs and the internal services used by my collegues.",
+        "badge": "LeCosimo.it - Lecce, Italy",
+        "isDotted": false
+      },
+      {
+        "title": "Internship - Junior Developer",
+        "date": "Apr - Jul 2019",
+        "description": "During my internship at CO.M.Media, I was introduced to SQL databases and PHP back-ends. After grasp- ing the fundamentals, I actively assisted the development team in their daily tasks, contributing to the implementation of several websites.",
+        "badge": "CO.M.Media - Lecce, Italy",
+        "isDotted": true
+      }
+    ]
+  },
+  "honors": {
+    "title": "Honors & Awards",
+    "description": "",
+    "icon": "award-03",
+    "iconAlt": "medal icon",
+    "items": [
+      {
+        "badge": "Politecnico di Milano",
+        "title": "Migliori Matricole Fondo Giovani <br> (Best First-Year Students of the Year)",
+        "description": "In January 2023, I was awarded the \"Migliori Matricole Fondo Giovani\" prize. To support equal opportunities and merit, Politecnico di Milano awards this prize to the best first-year students of each School. The prizes are awarded in the second year of enrollment based on academic performance during the first year of the Degree Course",
+        "badges": ["2021/2022 Academic Year"]
+      },
+      {
+        "badge": "Liceo Scientifico Statale C. De Giorgi",
+        "title": "Albo Nazionale delle Eccellenze <br> (National Register of Outstanding Students)",
+        "description": "In 2021, I was included in the \"Albo Nazionale delle Eccellenze\". This register is a list of students who have distinguished themselves for their academic performance and is published annually by the Italian Ministry of Education, University and Research."
+      }
+    ]
+  },
+  "sections": [
+    {
+      "title": "Education",
+      "description": "Brief summary of my education.",
+      "type": "timeline",
+      "icon": "book-open-01",
+      "iconAlt": "book icon",
+      "items": [
+        {
+          "title": "Politecnico Di Milano",
+          "date": "2021 - Present",
+          "description": "Bachelor’s degree in Engineering Of Computing Systems.",
+          "badge": "Current GPA: 27/30",
+          "isDotted": false
+        },
+        {
+          "title": "Liceo Scientifico Statale C. De Giorgi",
+          "date": "2016 - 2021",
+          "description": "High School Diploma in Scientific Studies.",
+          "badge": "100/100 cum laude",
+          "isDotted": true
+        }
+      ]
+    }
+  ]
+}

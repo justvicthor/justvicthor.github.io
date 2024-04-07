@@ -1,0 +1,40 @@
+---
+import { Image } from "astro:assets";
+import { Button } from "@/components/ui/button";
+import { Badge } from "@/components/ui/badge";
+import { buttonVariants } from "@/components/ui/button";
+import ProfileDecoration from "@/components/ProfileDecoration.astro";
+
+interface Props {
+  profileImage: string;
+  title: string;
+  description: string;
+  badge: string;
+  cvPath: string;
+}
+const { profileImage, title, description, badge, cvPath } = Astro.props;
+---
+
+<section class="text-center">
+  <div class="relative mt-[10rem]">
+    <Image
+      src={import(profileImage)}
+      alt="profile"
+      loading="eager"
+      class="rounded-full w-56 mx-auto mb-10"
+    />
+    <ProfileDecoration />
+
+    <Badge className="mb-3">{badge}</Badge>
+    <h1>{title}</h1>
+    <p class="lead">{description}</p>
+    <div class="mt-3">
+      <a class={buttonVariants()} href="mailto:job@piervito.com">
+        Get in touch
+      </a>
+      <a class={buttonVariants({ variant: "outline" })} href={cvPath} download>
+        Download CV
+      </a>
+    </div>
+  </div>
+</section>

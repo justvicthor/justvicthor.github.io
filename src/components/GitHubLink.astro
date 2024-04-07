@@ -1,0 +1,18 @@
+---
+import { Icon } from "astro-icon/components";
+interface Props {
+  profileName: string;
+  projectName: string;
+}
+const { profileName, projectName } = Astro.props;
+---
+
+<a
+  href={`https://github.com/${profileName}/${projectName}`}
+  class="flex flex-wrap items-center"
+>
+  <Icon name="github" class="w-4 h-4" />
+  <span class="ml-1 font-light">{profileName}</span> / <span class="font-bold"
+    >{projectName}</span
+  >
+</a>

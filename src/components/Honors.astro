@@ -1,0 +1,41 @@
+---
+import { Separator } from "@/components/ui/separator";
+import Section from "./Section.astro";
+import { Badge } from "@/components/ui/badge";
+interface Props {
+  data: {
+    icon: string;
+    iconAlt: string;
+    title: string;
+    description: string;
+
+    items: {
+      title: string;
+      description: string;
+      badge: string;
+      badges?: string[];
+    }[];
+  };
+}
+const { data } = Astro.props;
+---
+
+<Section icon={data.icon} title={data.title} description={data.description}>
+  {
+    data.items.map((item, index) => (
+      <div class="text-center max-w-2xl mx-auto mt-3">
+        {index != 0 && <Separator className="my-4" />}
+        {item.badge && <Badge className="mb-2">{item.badge}</Badge>}
+        <h3 set:html={item.title} />
+        <p class="muted">{item.description}</p>
+        {item.badges && (
+          <div class="flex justify-center mt-2">
+            {item.badges.map((badge) => (
+              <Badge variant="outline">{badge}</Badge>
+            ))}
+          </div>
+        )}
+      </div>
+    ))
+  }
+</Section>

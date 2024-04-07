@@ -1,0 +1,29 @@
+---
+import Section from "./Section.astro";
+import { Timeline, TimelineEntry } from "@/components/ui/timeline";
+interface Props {
+  data: {
+    icon: string;
+    title: string;
+    description: string;
+    items: {
+      title: string;
+      date: string;
+      description: string;
+      badge: string;
+      isDotted: boolean;
+    }[];
+  };
+}
+const { data } = Astro.props;
+---
+
+<Section
+  icon={data.icon}
+  title={data.title}
+  description={data.description}
+>
+  <Timeline>
+    {data.items.map((item) => <TimelineEntry {...item} />)}
+  </Timeline></Section
+>

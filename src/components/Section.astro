@@ -1,0 +1,20 @@
+---
+import { Image } from "astro:assets";
+import { Icon } from "astro-icon/components";
+interface Props {
+  icon: string;
+  title: string;
+  description: string;
+}
+const { icon, title, description } = Astro.props;
+---
+
+<section class="mt-20">
+  <Icon
+    name={icon}
+    class="mx-auto w-32 h-32 stroke-black dark:stroke-white stroke-2"
+  />
+  <h1 class="text-center">{title}</h1>
+  <p class="lead text-center">{description}</p>
+  <slot />
+</section>
