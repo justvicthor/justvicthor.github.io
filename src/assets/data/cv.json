@@ -1,6 +1,6 @@
 {
   "hero": {
-    "cvPath": "/public/CV_PiervitoCreanza_public.pdf",
+    "cvPath": "/CV_PiervitoCreanza_public.pdf",
     "title": "Piervito Creanza",
     "badge": "Computer Engineering Student",
     "description": "Since childhood, I have always been passionate about computer science and its applications. Before starting a BSc in Computer Engineering, I began programming as a self-taught learner at the age of 14. Although I am deeply curious about how things work and the theory behind them, I am also a very pragmatic person who wants to translate knowledge into practice, working on personal projects trying to make everyday life a little easier."
@@ -56,7 +56,7 @@
       },
       {
         "title": "Google Meet Timer - Chrome extension",
-        "description": "Chrome extension that gathered over 20,000 downloads and proved particularly useful during the COVID-19 pandemic. The extension added a timer feature to the Google Meet video conferencing plat- form, enabling users to better manage their time during meetings. In May 2021, I sold Google Meet Timer to a developer who was interested in integrating the product into their own extension.",
+        "description": "Chrome extension that gathered over 20,000 downloads and proved particularly useful during the COVID-19 pandemic. The extension added a timer feature to the Google Meet video conferencing platform, enabling users to better manage their time during meetings. In May 2021, I sold Google Meet Timer to a developer who was interested in integrating the product into their own extension.",
         "tags": ["Chrome Extension", "VPS", "Multi-User"],
         "githubRepo": {
           "profileName": "PiervitoCreanza",
@@ -90,7 +90,7 @@
       {
         "title": "Internship - Junior Developer",
         "date": "Apr - Jul 2019",
-        "description": "During my internship at CO.M.Media, I was introduced to SQL databases and PHP back-ends. After grasp- ing the fundamentals, I actively assisted the development team in their daily tasks, contributing to the implementation of several websites.",
+        "description": "During my internship at CO.M.Media, I was introduced to SQL databases and PHP back-ends. After grasping the fundamentals, I actively assisted the development team in their daily tasks, contributing to the implementation of several websites.",
         "badge": "CO.M.Media - Lecce, Italy",
         "isDotted": true
       }
