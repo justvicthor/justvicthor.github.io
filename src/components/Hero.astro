@@ -1,24 +1,22 @@
 ---
 import { Image } from "astro:assets";
-import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { buttonVariants } from "@/components/ui/button";
 import ProfileDecoration from "@/components/ProfileDecoration.astro";
 
 interface Props {
-  profileImage: string;
   title: string;
   description: string;
   badge: string;
   cvPath: string;
 }
-const { profileImage, title, description, badge, cvPath } = Astro.props;
+const { title, description, badge, cvPath } = Astro.props;
 ---
 
 <section class="text-center">
   <div class="relative mt-[10rem]">
     <Image
-      src={import(profileImage)}
+      src={import("../assets/images/profile.png")}
       alt="profile"
       loading="eager"
       class="rounded-full w-56 mx-auto mb-10"

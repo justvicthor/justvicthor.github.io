@@ -1,29 +1,13 @@
 ---
 import "@/styles/globals.css";
-import { Badge } from "@/components/ui/badge";
 import { ModeToggle } from "@/components/ModeToggle";
 import { Separator } from "@/components/ui/separator";
 
-import { Button } from "@/components/ui/button";
-import {
-  Card,
-  CardContent,
-  CardDescription,
-  CardFooter,
-  CardHeader,
-  CardTitle,
-} from "@/components/ui/card";
 import GithubLink from "@/components/GitHubLink.astro";
-import { Timeline, TimelineEntry } from "@/components/ui/timeline";
-import { Image } from "astro:assets";
-import profileImage from "../assets/images/profile.png";
-import bookOpenIcon from "../assets/icons/book-open-01.svg";
-import archiveIcon from "../assets/icons/archive.svg";
 
 import cv from "../assets/data/cv.json";
 import TimelineSection from "@/components/TimelineSection.astro";
 import Hero from "@/components/Hero.astro";
-import Project from "@/components/Project.astro";
 import ProjectsSection from "@/components/ProjectsSection.astro";
 import Honors from "@/components/Honors.astro";
 ---
@@ -40,7 +24,6 @@ import Honors from "@/components/Honors.astro";
     <div class="fixed m-3 right-0 bottom-0"><ModeToggle client:load /></div>
     <div class="container">
       <Hero
-        profileImage={cv.hero.profileImage}
         title={cv.hero.title}
         badge={cv.hero.badge}
         description={cv.hero.description}
@@ -84,9 +67,12 @@ import Honors from "@/components/Honors.astro";
       ) {
         return localStorage.getItem("theme");
       }
+      // Fallback to dark theme
+      return "dark";
+      /*
       return window.matchMedia("(prefers-color-scheme: dark)").matches
         ? "dark"
-        : "light";
+        : "light";*/
     };
     const isDark = getThemePreference() === "dark";
     document.documentElement.classList[isDark ? "add" : "remove"]("dark");

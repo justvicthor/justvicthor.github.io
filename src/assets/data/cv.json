@@ -1,6 +1,5 @@
 {
   "hero": {
-    "profileImage": "/src/assets/images/profile.png",
     "cvPath": "/public/CV_PiervitoCreanza_public.pdf",
     "title": "Piervito Creanza",
     "badge": "Computer Engineering Student",
