@@ -67,6 +67,7 @@ import Honors from "@/components/Honors.astro";
       ) {
         return localStorage.getItem("theme");
       }
+      console.log("No theme preference found in localStorage");
       // Fallback to dark theme
       return "dark";
       /*

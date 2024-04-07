@@ -14,7 +14,9 @@ const { title, description, badge, cvPath } = Astro.props;
 ---
 
 <section class="text-center">
-  <div class="relative mt-[10rem]">
+  <div
+    class="relative mt-24 min-[420px]:mt-[8rem] min-[490px]:mt-[10rem] max-w-[30rem] mx-auto"
+  >
     <Image
       src={import("../assets/images/profile.png")}
       alt="profile"
@@ -22,7 +24,6 @@ const { title, description, badge, cvPath } = Astro.props;
       class="rounded-full w-56 mx-auto mb-10"
     />
     <ProfileDecoration />
-
     <Badge className="mb-3">{badge}</Badge>
     <h1>{title}</h1>
     <p class="lead">{description}</p>
@@ -36,3 +37,15 @@ const { title, description, badge, cvPath } = Astro.props;
     </div>
   </div>
 </section>
+
+{
+  /*
+
+    <Image
+      src={import("../assets/images/profile-decoration.png")}
+      alt="profile-bg"
+      loading="eager"
+      class="absolute top-0 left-0 right-0 w-[30rem] max-[350px]:mt-[-70px] max-[400px]:mt-[-110px] max-[450px]:mt-[-130px] mt-[-150px] sm:block sm:mt-[-150px] object-cover mx-auto z-[-1]"
+    />
+    */
+}
