@@ -12,6 +12,15 @@
     "iconAlt": "archive icon",
     "items": [
       {
+        "title": "GenScore retraining",
+        "description": "Project concerning the retraining of GenScore, a generalized protein–ligand scoring framework based on machine learning. GenScore is a state-of-the-art model employed in drug discovery to calculate the affinity degree between proteins and ligands.",
+        "tags": ["Python", "PyTorch", "Machine Learning", "AI"],
+        "githubRepo": {
+          "profileName": "PiervitoCreanza",
+          "repoName": "GenScore_retrain"
+        }
+      },
+      {
         "title": "iFame",
         "description": "Personal project about the meal scheduler optimization problem. The algorithm utilizes a categorized list of meals and strategically assigns them to the calendar while adhering to numerous configurable constraints. The project is developed in Java using OptaPlanner and relies on a MySQL database.",
         "tags": ["Java", "OptaPlanner", "MySQL"],
@@ -21,12 +30,12 @@
         }
       },
       {
-        "title": "GenScore retraining",
-        "description": "Project concerning the retraining of GenScore, a generalized protein–ligand scoring framework based on machine learning. GenScore is a state-of-the-art model employed in drug discovery to calculate the affinity degree between proteins and ligands.",
-        "tags": ["Python", "PyTorch", "Machine Learning", "AI"],
+        "title": "piervito.com",
+        "description": "Personal website developed from scratch using Astro, Shadcn and Tailwind CSS. The website is designed to be easily customizable and maintainable, with a focus on performance and accessibility.",
+        "tags": ["Astro", "Shadcn", "TailwindCSS", "Figma"],
         "githubRepo": {
           "profileName": "PiervitoCreanza",
-          "repoName": "GenScore_retrainin"
+          "repoName": "piervito.com"
         }
       },
       {
@@ -51,7 +60,7 @@
         ],
         "githubRepo": {
           "profileName": "PiervitoCreanza",
-          "repoName": "orientamento.liceodegiorgi.it"
+          "repoName": "orientamento.liceodegiorgi.edu.it"
         }
       },
       {
