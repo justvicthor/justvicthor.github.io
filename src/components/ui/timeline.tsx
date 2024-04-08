@@ -38,7 +38,7 @@ interface TimelineProps {
 const Timeline: React.FC<TimelineProps> = ({ children }) => {
     return (
         <div className="flex justify-center mt-3">
-            <ol className="table">
+            <ol className="table h-full">
                 {children}
             </ol>
         </div>
