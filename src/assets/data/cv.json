@@ -1,9 +1,9 @@
 {
   "hero": {
-    "cvPath": "/CV_PiervitoCreanza_public.pdf",
+    "cvPath": "/CV_VittorioPioRemigioCozzoli_public.pdf",
     "title": "Vittorio Pio Remigio Cozzoli",
     "badge": "High Performance Computing Engineering Student",
-    "description": "I am a college student with an educational background full of very heterogeneous experiences, both prag- matical and theoretical ones, which allowed me to put into practice the skills I acquired during my years of education. Engineeringly speaking, my main interests are mathe- matical and biological applications of high performance computers."
+    "description": "I am a college student with an educational background full of very heterogeneous experiences, both pragmatical and theoretical ones, which allowed me to put into practice the skills I acquired during my years of education. Engineeringly speaking, my main interests are mathematical and biological applications of high performance computers."
   },
   "projects": {
     "title": "Projects",
@@ -12,7 +12,7 @@
     "iconAlt": "archive icon",
     "items": [
       {
-        "title": "GenScore retraining",
+        "title": "Machine Learning for drug-target interaction estimation in Drug Discovery: from replication to data integration analysis",
         "description": "Project concerning the retraining of GenScore, a generalized protein–ligand scoring framework based on machine learning. GenScore is a state-of-the-art model employed in drug discovery to calculate the affinity degree between proteins and ligands.",
         "tags": ["Python", "PyTorch", "Machine Learning", "AI"],
         "githubRepo": {
@@ -21,8 +21,8 @@
         }
       },
       {
-        "title": "iFame",
-        "description": "Personal project about the meal scheduler optimization problem. The algorithm utilizes a categorized list of meals and strategically assigns them to the calendar while adhering to numerous configurable constraints. The project is developed in Java using OptaPlanner and relies on a MySQL database.",
+        "title": "Simple Hospital Shifts Optimizer",
+        "description": "Personal project about the optimization of hospital shifts, based on the number of .",
         "tags": ["Java", "OptaPlanner", "MySQL"],
         "githubRepo": {
           "profileName": "PiervitoCreanza",
@@ -30,12 +30,12 @@
         }
       },
       {
-        "title": "piervito.com",
+        "title": "justvicthor.github.com",
         "description": "Personal website developed from scratch using Astro, Shadcn and Tailwind CSS. The website is designed to be easily customizable and maintainable, with a focus on performance and accessibility.",
         "tags": ["Astro", "Shadcn", "TailwindCSS", "Figma"],
         "githubRepo": {
-          "profileName": "PiervitoCreanza",
-          "repoName": "piervito.com"
+          "profileName": "justvicthor",
+          "repoName": "justvicthor.github.io"
         }
       },
       {
@@ -136,28 +136,28 @@
           "title": "EUMaster4HPC Double Degree Programme",
           "date": "2024 - Present",
           "description": "Double Master’s degree in High Performance Computing Engineering and Computational Science.",
-          "badge": "Current GPA: 27/30",
+          "badge": "",
           "isDotted": false
         },
         {
           "title": "Politecnico Di Milano",
           "date": "2024 - Present",
           "description": "Master’s degree in High Performance Computing Engineering.",
-          "badge": "Current GPA: 27/30",
+          "badge": "",
           "isDotted": false
         },
         {
           "title": "Università della Svizzera Italiana",
           "date": "2024 - Present",
           "description": "Master’s degree in Computational Science.",
-          "badge": "Current GPA: 27/30",
+          "badge": "",
           "isDotted": false
         },
         {
           "title": "Politecnico Di Milano",
           "date": "2021 - 2024",
           "description": "Bachelor’s degree in Engineering Of Computing Systems.",
-          "badge": "Current GPA: 27/30",
+          "badge": "",
           "isDotted": false
         },
         {
