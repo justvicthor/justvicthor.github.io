@@ -6,7 +6,7 @@ import icon from "astro-icon";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "justvicthor.github.io",
+  site: "https://www.piervito.com",
   integrations: [
     react(),
     tailwind({
