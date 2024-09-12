@@ -3,105 +3,58 @@
     "cvPath": "/CV_PiervitoCreanza_public.pdf",
     "title": "Vittorio Pio Remigio Cozzoli",
     "badge": "High Performance Computing Engineering Student",
-    "description": "I am a college student with an educational background full of very heterogeneous experiences, both pragmatical and theoretical ones, which allowed me to put into practice the skills I acquired during my years of education. Engineeringly speaking, my main interests are mathematical and biological applications of high performance computers."
+    "description": "I am a college student with an educational background full of very heterogeneous experiences, both pragmatical and theoretical ones, which allowed me to put into practice the skills I acquired during my years of education. <br>Engineeringly speaking, my main interests regard mathematical and biological applications of high performance computing architectures."
   },
   "projects": {
     "title": "Projects",
-    "description": "A selection of personal projects.",
+    "description": "A small selection of some personal projects.",
     "icon": "archive",
     "iconAlt": "archive icon",
     "items": [
       {
-        "title": "GenScore retraining",
-        "description": "Project concerning the retraining of GenScore, a generalized protein–ligand scoring framework based on machine learning. GenScore is a state-of-the-art model employed in drug discovery to calculate the affinity degree between proteins and ligands.",
-        "tags": ["Python", "PyTorch", "Machine Learning", "AI"],
+        "title": "Machine Learning for drug-target interaction estimation in Drug Discovery: from replication to data integration analysis",
+        "description": "Research project concerning the retraining of GenScore, a convolutional neural network designed to calculate the affinity degree (score) between a protein (or a protein pocket) and a ligand with a different dataset.",
+        "tags": ["Python", "PyTorch", "Machine Learning", "AI", "Bionformatics"],
         "githubRepo": {
           "profileName": "PiervitoCreanza",
           "repoName": "GenScore_retrain"
         }
       },
       {
-        "title": "iFame",
-        "description": "Personal project about the meal scheduler optimization problem. The algorithm utilizes a categorized list of meals and strategically assigns them to the calendar while adhering to numerous configurable constraints. The project is developed in Java using OptaPlanner and relies on a MySQL database.",
-        "tags": ["Java", "OptaPlanner", "MySQL"],
+        "title": "Software Engineering Project",
+        "description": "Project regarding the creation from scratch of the board game called “Codex Naturalis”.",
+        "tags": ["Java", "Software Engineering", "Design Patterns"],
         "githubRepo": {
-          "profileName": "PiervitoCreanza",
-          "repoName": "iFame"
+          "profileName": "Orbital01",
+          "repoName": "IS24-AM14"
         }
       },
       {
-        "title": "piervito.com",
-        "description": "Personal website developed from scratch using Astro, Shadcn and Tailwind CSS. The website is designed to be easily customizable and maintainable, with a focus on performance and accessibility.",
-        "tags": ["Astro", "Shadcn", "TailwindCSS", "Figma"],
+        "title": "Digital Circuits Project",
+        "description": "Project concerning the creation of a hardware component that solves an assigned problem according to a particular specification.",
+        "tags": ["VHDL", "AMD XIlinx Vivado", "Digital Circuits", "Hardware Design"],
         "githubRepo": {
-          "profileName": "PiervitoCreanza",
-          "repoName": "piervito.com"
+          "profileName": "justvicthor",
+          "repoName": "ProgettoRL"
         }
       },
       {
-        "title": "R-Esisti Education - Electron app development",
-        "description": "Small desktop Electron app based on Vue.js to assist R-Esisti Education, a small child pedagogy center, in managing communications with their clients. The app sends a welcome email to new clients containing a link to a shared drive folder where they can upload files to share with the office.",
-        "tags": ["Electron", "Google Drive APIs", "Vue.js"]
-      },
-      {
-        "title": "Home Server",
-        "description": "In-house Ubuntu server capable of hosting private websites, RESTful APIs, and various other small projects. Moreover, it functions as a home centre through Plex media server and Home Assistant. These services are orchestrated to run autonomously within isolated Docker containers.",
-        "tags": ["Ubuntu", "Docker", "Nginx", "DevOps"]
-      },
-      {
-        "title": "Liceo De Giorgi - Website development",
-        "description": "Website developed from scratch dedicated to new students of Liceo Scientifico Cosimo De Giorgi. The site is based on Jekyll and is constantly updated by non-developers through a headless cms and an auto-build feature based on Github actions.",
-        "tags": [
-          "Jekyll",
-          "GitHub Actions",
-          "Adobe Illustrator",
-          "HTML",
-          "CSS"
-        ],
+        "title": "Algorithms and Principles of Computer Science Project",
+        "description": "Project concerning the use of advanced algorithms and data structures for the purpose of solving an assigned problem in the lowest possible temporal and spatial complexity.",
+        "tags": ["C" , "Valgrind", "Algorithms", "Data Structures"],
         "githubRepo": {
-          "profileName": "PiervitoCreanza",
-          "repoName": "orientamento.liceodegiorgi.edu.it"
+          "profileName": "justvicthor",
+          "repoName": "ProgettoAPI"
         }
       },
       {
-        "title": "Google Meet Timer - Chrome extension",
-        "description": "Chrome extension that gathered over 20,000 downloads and proved particularly useful during the COVID-19 pandemic. The extension added a timer feature to the Google Meet video conferencing platform, enabling users to better manage their time during meetings. In May 2021, I sold Google Meet Timer to a developer who was interested in integrating the product into their own extension.",
-        "tags": ["Chrome Extension", "VPS", "Multi-User"],
+        "title": "Machine Learning for drug-target interaction estimation in Drug Discovery: from replication to data integration analysis",
+        "description": "C/C++ library that implements an equivalent of the \"mldivide\" MATLAB function for solving systems of linear equations",
+        "tags": ["C", "C++", "Linear Algebra", "Numerical Analysis"],
         "githubRepo": {
-          "profileName": "PiervitoCreanza",
-          "repoName": "GoogleMeetTimer"
+          "profileName": "justvicthor",
+          "repoName": "mldivide-in-C"
         }
-      },
-      {
-        "title": "LiceaCard - Platform development",
-        "description": "Web application developed to provide digital discount cards for selected local stores. The back-end is based on Google Firestore, while the front-end was developed from scratch. It is based on Vue.js and Google Authentication to ensure secure access to the platform.",
-        "tags": ["Google Firebase", "NoSQL", "Authentication", "Vue.js"],
-        "githubRepo": {
-          "profileName": "PiervitoCreanza",
-          "repoName": "card.lecosimo.it"
-        }
-      }
-    ]
-  },
-  "workExperience": {
-    "title": "Work & Internships",
-    "description": "A selection of my work experience.",
-    "icon": "briefcase-02",
-    "iconAlt": "briefcase icon",
-    "items": [
-      {
-        "title": "Volunteering - Developer",
-        "date": "2019 - 2021",
-        "description": "I worked as a developer for the student newspaper lecosimo.it. My role was to develop and maintain the website, its APIs and the internal services used by my collegues.",
-        "badge": "LeCosimo.it - Lecce, Italy",
-        "isDotted": false
-      },
-      {
-        "title": "Internship - Junior Developer",
-        "date": "Apr - Jul 2019",
-        "description": "During my internship at CO.M.Media, I was introduced to SQL databases and PHP back-ends. After grasping the fundamentals, I actively assisted the development team in their daily tasks, contributing to the implementation of several websites.",
-        "badge": "CO.M.Media - Lecce, Italy",
-        "isDotted": true
       }
     ]
   },
@@ -112,15 +65,38 @@
     "iconAlt": "medal icon",
     "items": [
       {
-        "badge": "Politecnico di Milano",
-        "title": "Migliori Matricole Fondo Giovani <br> (Best First-Year Students of the Year)",
-        "description": "In January 2023, I was awarded the \"Migliori Matricole Fondo Giovani\" prize. To support equal opportunities and merit, Politecnico di Milano awards this prize to the best first-year students of each School. The prizes are awarded in the second year of enrollment based on academic performance during the first year of the Degree Course",
-        "badges": ["2021/2022 Academic Year"]
+        "badge": "QualeFuturo",
+        "title": "“Visionary Days - QualeFuturo” Hackathon",
+        "description": "Member, among only 400 selected throughout whole Italy, of the extraordinary edition of \"Visionary Days - QualeFuturo\", Web Marathon announced by the Italian Government in collaboration with the QualeFuturo institution, aiming at the creation of a Digital Table to search for proposals and solutions to economic and social problems due to the state of contingency caused by the Coronavirus pandemic.",
+        "badges": ["<a href=\"https://qualefuturo.visionarydays.com/#risultati\">Booklet of results</a>"]
       },
       {
-        "badge": "Liceo Scientifico Statale C. De Giorgi",
+        "badge": "MIUR",
+        "title": "“Premio Scuola Digitale 2020”",
+        "description": "National contest announced by the Italian Education Ministry regarding digital, technical, technological and entrepreneurial innovation.",
+        "badges": ["<em>First Place</em> at the provincial phase", "<em>Second Place</em> at the regional phase"]
+      },
+      {
+        "badge": "MIUR",
+        "title": "“Futura Roma” Hackathon",
+        "description": "Competition announced in 2018 by the Italian Ministry of Education, University and Research (MIUR) regarding school and educational innovation.",
+        "badges": ["<em>Secondo Place</em>"]
+      },
+      {
+        "badge": "MIUR",
+        "title": "\"Global YounG7\" Hackathon",
+        "description": "<em>Winner</em> of the local Global YounG7 hackathon, a G7 simulation formed by groups of high school students representing the world’s seven greatest economic powers.",
+        "badges": ["<em>First Place</em>"]
+      },
+      {
+        "badge": "Maker Faire",
+        "title": "Maker Faire Rome - The European Edition",
+        "description": "<em>Winner</em> of the <em>\"Maker of Merit\" Award</em> as the best Engineering Project exhibited at the European Technology Fair \"Maker Faire Rome\", 2017 Edition."
+      },
+      {
+        "badge": "Technical Economic Institute “A. Fraccacreta”",
         "title": "Albo Nazionale delle Eccellenze <br> (National Register of Outstanding Students)",
-        "description": "In 2021, I was included in the \"Albo Nazionale delle Eccellenze\". This register is a list of students who have distinguished themselves for their academic performance and is published annually by the Italian Ministry of Education, University and Research."
+        "description": "In 2021, I was included in the \"Albo Nazionale delle Eccellenze\". This register is a list of students who have distinguished themselves for their academic performance and is published annually by the Italian Ministry of Education, University and Research (MIUR)."
       }
     ]
   },
@@ -133,16 +109,37 @@
       "iconAlt": "book icon",
       "items": [
         {
-          "title": "Politecnico Di Milano",
-          "date": "2021 - Present",
-          "description": "Bachelor’s degree in Engineering Of Computing Systems.",
-          "badge": "Current GPA: 27/30",
+          "title": "EUMaster4HPC",
+          "date": "2024 - Present",
+          "description": "European Double Degree programme for Master’s degree in High Performance Computing Engineering and Computational Science.",
+          "badge": "",
           "isDotted": false
         },
         {
-          "title": "Liceo Scientifico Statale C. De Giorgi",
+          "title": "Università della Svizzera Italiana",
+          "date": "2024 - Present",
+          "description": "Master’s degree in Computational Science.",
+          "badge": "",
+          "isDotted": false
+        },
+        {
+          "title": "Politecnico Di Milano",
+          "date": "2021 - 2024",
+          "description": "Master’s degree in High Performance Computing Engineering.",
+          "badge": "",
+          "isDotted": false
+        },
+        {
+          "title": "Politecnico Di Milano",
+          "date": "2021 - Present",
+          "description": "Bachelor’s degree in Engineering Of Computing Systems.",
+          "badge": "",
+          "isDotted": false
+        },
+        {
+          "title": "Technical Economic Institute “A. Fraccacreta”",
           "date": "2016 - 2021",
-          "description": "High School Diploma in Scientific Studies.",
+          "description": "High School Diploma as accountant programmer.",
           "badge": "100/100 cum laude",
           "isDotted": true
         }
