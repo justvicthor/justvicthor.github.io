@@ -3,7 +3,7 @@
     "cvPath": "/CV_PiervitoCreanza_public.pdf",
     "title": "Vittorio Pio Remigio Cozzoli",
     "badge": "High Performance Computing Engineering Student",
-    "description": "I am a college student with an educational background full of very heterogeneous experiences, both pragmatical and theoretical ones, which allowed me to put into practice the skills I acquired during my years of education. <br>Engineeringly speaking, my main interests regard mathematical and biological applications of high performance computing architectures."
+    "description": "I am a college student with an educational background full of very heterogeneous experiences, both pragmatical and theoretical ones, which allowed me to put into practice the skills I acquired during my years of education. Engineeringly speaking, my main interests regard mathematical and biological applications of high performance computing architectures."
   },
   "projects": {
     "title": "Projects",
@@ -48,7 +48,7 @@
         }
       },
       {
-        "title": "Machine Learning for drug-target interaction estimation in Drug Discovery: from replication to data integration analysis",
+        "title": "mldivide-in-C",
         "description": "C/C++ library that implements an equivalent of the \"mldivide\" MATLAB function for solving systems of linear equations",
         "tags": ["C", "C++", "Linear Algebra", "Numerical Analysis"],
         "githubRepo": {
@@ -67,31 +67,30 @@
       {
         "badge": "QualeFuturo",
         "title": "“Visionary Days - QualeFuturo” Hackathon",
-        "description": "Member, among only 400 selected throughout whole Italy, of the extraordinary edition of \"Visionary Days - QualeFuturo\", Web Marathon announced by the Italian Government in collaboration with the QualeFuturo institution, aiming at the creation of a Digital Table to search for proposals and solutions to economic and social problems due to the state of contingency caused by the Coronavirus pandemic.",
-        "badges": ["<a href=\"https://qualefuturo.visionarydays.com/#risultati\">Booklet of results</a>"]
+        "description": "Member, among only 400 selected throughout whole Italy, of the extraordinary edition of \"Visionary Days - QualeFuturo\", Web Marathon announced by the Italian Government in collaboration with the QualeFuturo institution, aiming at the creation of a Digital Table to search for proposals and solutions to economic and social problems due to the state of contingency caused by the Coronavirus pandemic."
       },
       {
         "badge": "MIUR",
         "title": "“Premio Scuola Digitale 2020”",
         "description": "National contest announced by the Italian Education Ministry regarding digital, technical, technological and entrepreneurial innovation.",
-        "badges": ["<em>First Place</em> at the provincial phase", "<em>Second Place</em> at the regional phase"]
+        "badges": ["𝘍𝘪𝘳𝘴𝘵 𝘗𝘭𝘢𝘤𝘦 at the provincial phase", "𝘚𝘦𝘤𝘰𝘯𝘥 𝘗𝘭𝘢𝘤𝘦 at the regional phase"]
       },
       {
         "badge": "MIUR",
         "title": "“Futura Roma” Hackathon",
         "description": "Competition announced in 2018 by the Italian Ministry of Education, University and Research (MIUR) regarding school and educational innovation.",
-        "badges": ["<em>Secondo Place</em>"]
+        "badges": ["𝘚𝘦𝘤𝘰𝘯𝘥 𝘗𝘭𝘢𝘤𝘦"]
       },
       {
         "badge": "MIUR",
         "title": "\"Global YounG7\" Hackathon",
-        "description": "<em>Winner</em> of the local Global YounG7 hackathon, a G7 simulation formed by groups of high school students representing the world’s seven greatest economic powers.",
-        "badges": ["<em>First Place</em>"]
+        "description": "𝘞𝘪𝘯𝘯𝘦𝘳 of the local Global YounG7 hackathon, a G7 simulation formed by groups of high school students representing the world’s seven greatest economic powers.",
+        "badges": ["𝘍𝘪𝘳𝘴𝘵 𝘗𝘭𝘢𝘤𝘦"]
       },
       {
         "badge": "Maker Faire",
         "title": "Maker Faire Rome - The European Edition",
-        "description": "<em>Winner</em> of the <em>\"Maker of Merit\" Award</em> as the best Engineering Project exhibited at the European Technology Fair \"Maker Faire Rome\", 2017 Edition."
+        "description": "𝘞𝘪𝘯𝘯𝘦𝘳 of the \"𝘔𝘢𝘬𝘦𝘳 𝘰𝘧 𝘔𝘦𝘳𝘪𝘵\" 𝘈𝘸𝘢𝘳𝘥 as the best Engineering Project exhibited at the European Technology Fair \"Maker Faire Rome\", 2017 Edition."
       },
       {
         "badge": "Technical Economic Institute “A. Fraccacreta”",
@@ -124,14 +123,14 @@
         },
         {
           "title": "Politecnico Di Milano",
-          "date": "2021 - 2024",
+          "date": "2024 - Present",
           "description": "Master’s degree in High Performance Computing Engineering.",
           "badge": "",
           "isDotted": false
         },
         {
           "title": "Politecnico Di Milano",
-          "date": "2021 - Present",
+          "date": "2021 - 2024",
           "description": "Bachelor’s degree in Engineering Of Computing Systems.",
           "badge": "",
           "isDotted": false
