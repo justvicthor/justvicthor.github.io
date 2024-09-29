@@ -10,7 +10,7 @@ interface Props {
       title: string;
       date: string;
       description: string;
-      badge: string;
+      badge?: string;
       isDotted: boolean;
     }[];
   };
@@ -18,11 +18,7 @@ interface Props {
 const { data } = Astro.props;
 ---
 
-<Section
-  icon={data.icon}
-  title={data.title}
-  description={data.description}
->
+<Section icon={data.icon} title={data.title} description={data.description}>
   <Timeline>
     {data.items.map((item) => <TimelineEntry {...item} />)}
   </Timeline></Section
