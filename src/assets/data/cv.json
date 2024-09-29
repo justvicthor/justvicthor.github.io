@@ -156,36 +156,32 @@
         {
           "title": "EUMaster4HPC",
           "date": "2024 - Present",
-          "description": "European Double Degree programme for Master’s degree in High Performance Computing Engineering and Computational Science.",
-          "badge": "",
+          "description": "European Double Degree programme for Master’s Degree.",
+          "badge": "High Performance Computing Engineering x Computational Science",
           "isDotted": false
         },
         {
           "title": "Università della Svizzera Italiana",
           "date": "2024 - Present",
-          "description": "Master’s degree in Computational Science.",
-          "badge": "",
+          "description": "Master’s Degree in Computational Science.",
           "isDotted": false
         },
         {
           "title": "Politecnico Di Milano",
           "date": "2024 - Present",
-          "description": "Master’s degree in High Performance Computing Engineering.",
-          "badge": "",
+          "description": "Master’s Degree in High Performance Computing Engineering.",
           "isDotted": false
         },
         {
           "title": "Politecnico Di Milano",
           "date": "2021 - 2024",
-          "description": "Bachelor’s degree in Engineering Of Computing Systems.",
-          "badge": "",
+          "description": "Bachelor’s Degree in Engineering Of Computing Systems.",
           "isDotted": false
         },
         {
           "title": "Technical Economic Institute “A. Fraccacreta”",
           "date": "2016 - 2021",
           "description": "High School Diploma as accountant programmer.",
-          "badge": "100/100 cum laude",
           "isDotted": true
         }
       ]

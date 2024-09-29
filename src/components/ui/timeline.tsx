@@ -5,7 +5,7 @@ interface TimelineEntryProps {
     date: string;
     title: string;
     description: string;
-    badge: string;
+    badge?: string;
     isDotted: boolean
 }
 
@@ -24,7 +24,13 @@ const TimelineEntry: React.FC<TimelineEntryProps> = ({ date, title, description,
                     <h3>{title}</h3>
                     <p className={"muted"}>{description}</p>
                     <div className="mt-2 mb-8">
-                        <Badge>{badge}</Badge>
+                    {
+                        badge && (
+                            
+                                <Badge>{badge}</Badge>
+                            
+                        )
+                    }
                     </div>
                 </div>
             </li>
