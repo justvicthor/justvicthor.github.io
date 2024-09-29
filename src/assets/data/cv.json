@@ -14,7 +14,14 @@
       {
         "title": "Machine Learning for drug-target interaction estimation in Drug Discovery: from replication to data integration analysis",
         "description": "Research project concerning the retraining of GenScore, a convolutional neural network designed to calculate the affinity degree (score) between a protein (or a protein pocket) and a ligand with a different dataset.",
-        "tags": ["Python", "PyTorch", "Machine Learning", "AI", "Bionformatics"],
+        "tags": [
+          { "name": "Python", "variant": "default" },
+          { "name": "PyTorch", "variant": "default" },
+          { "name": "Machine Learning", "variant": "default" },
+          { "name": "AI", "variant": "default" },
+          { "name": "Bioinformatics", "variant": "default" },
+          { "name": "COMPLETED", "variant": "emerald" }
+        ],
         "githubRepo": {
           "profileName": "PiervitoCreanza",
           "repoName": "GenScore_retrain"
@@ -23,16 +30,27 @@
       {
         "title": "Software Engineering Project",
         "description": "Project regarding the creation from scratch of the board game called “Codex Naturalis”.",
-        "tags": ["Java", "Software Engineering", "Design Patterns"],
+        "tags": [
+          { "name": "Java", "variant": "default" },
+          { "name": "Software Engineering", "variant": "default" },
+          { "name": "Design Patterns", "variant": "default" },
+          { "name": "COMPLETED", "variant": "emerald" }
+        ],
         "githubRepo": {
-          "profileName": "Orbital01",
+          "profileName": "justvicthor",
           "repoName": "IS24-AM14"
         }
       },
       {
         "title": "Digital Circuits Project",
         "description": "Project concerning the creation of a hardware component that solves an assigned problem according to a particular specification.",
-        "tags": ["VHDL", "AMD XIlinx Vivado", "Digital Circuits", "Hardware Design"],
+        "tags": [
+          { "name": "VHDL", "variant": "default" },
+          { "name": "AMD Xilinx Vivado", "variant": "default" },
+          { "name": "Digital Circuits", "variant": "default" },
+          { "name": "Hardware Design", "variant": "default" },
+          { "name": "COMPLETED", "variant": "emerald" }
+        ],
         "githubRepo": {
           "profileName": "justvicthor",
           "repoName": "ProgettoRL"
@@ -41,7 +59,14 @@
       {
         "title": "Algorithms and Principles of Computer Science Project",
         "description": "Project concerning the use of advanced algorithms and data structures for the purpose of solving an assigned problem in the lowest possible temporal and spatial complexity.",
-        "tags": ["C" , "Valgrind", "Algorithms", "Data Structures"],
+        "tags": [
+          { "name": "C", "variant": "default" },
+          { "name": "Valgrind", "variant": "default" },
+          { "name": "Algorithms", "variant": "default" },
+          { "name": "Data Structures", "variant": "default" },
+          { "name": "Constrained optimization", "variant": "default" },
+          { "name": "COMPLETED", "variant": "emerald" }
+        ],
         "githubRepo": {
           "profileName": "justvicthor",
           "repoName": "ProgettoAPI"
@@ -50,7 +75,13 @@
       {
         "title": "mldivide-in-C",
         "description": "C/C++ library that implements an equivalent of the \"mldivide\" MATLAB function for solving systems of linear equations",
-        "tags": ["C", "C++", "Linear Algebra", "Numerical Analysis"],
+        "tags": [
+          { "name": "C", "variant": "default" },
+          { "name": "C++", "variant": "default" },
+          { "name": "Numerica Linear Algebra", "variant": "default" },
+          { "name": "Numerical Analysis", "variant": "default" },
+          { "name": "UNAVAILABLE", "variant": "red" }
+        ],
         "githubRepo": {
           "profileName": "justvicthor",
           "repoName": "mldivide-in-C"

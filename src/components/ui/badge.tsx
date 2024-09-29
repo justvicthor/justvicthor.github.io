@@ -15,6 +15,10 @@ const badgeVariants = cva(
         destructive:
           "border-transparent bg-destructive text-destructive-foreground hover:bg-destructive/80",
         outline: "text-foreground",
+        // Variants for GitHub projects
+        red: "border-transparent bg-red-500 text-white hover:bg-red-600",
+        emerald: "border-transparent bg-emerald-500 text-white hover:bg-emerald-600",
+        ochre: "border-transparent bg-yellow-600 text-white hover:bg-yellow-700",
       },
     },
     defaultVariants: {
