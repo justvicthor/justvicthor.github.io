@@ -78,13 +78,28 @@
         "tags": [
           { "name": "C", "variant": "default" },
           { "name": "C++", "variant": "default" },
-          { "name": "Numerica Linear Algebra", "variant": "default" },
+          { "name": "Numerical Linear Algebra", "variant": "default" },
           { "name": "Numerical Analysis", "variant": "default" },
           { "name": "UNAVAILABLE", "variant": "red" }
         ],
         "githubRepo": {
           "profileName": "justvicthor",
           "repoName": "mldivide-in-C"
+        }
+      },
+      {
+        "title": "jFiltering",
+        "description": "Simple C++ library that implements a set of functions to facilitate the application of kernel-based convolution filters for smoothing, sharpening and edge detection.",
+        "tags": [
+          { "name": "C++", "variant": "default" },
+          { "name": "Numerical Linear Algebra", "variant": "default" },
+          { "name": "Numerical Analysis", "variant": "default" },
+          { "name": "Image Manipulation", "variant": "default" },
+          { "name": "WIP", "variant": "ochre" }
+        ],
+        "githubRepo": {
+          "profileName": "justvicthor",
+          "repoName": "jFiltering"
         }
       }
     ]
