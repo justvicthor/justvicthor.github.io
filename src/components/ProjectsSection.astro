@@ -9,6 +9,7 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
+import { isValidBadgeVariant } from "@/lib/utils"; // Importa la funzione helper
 
 interface Props {
   data: {
@@ -50,7 +51,7 @@ const { data } = Astro.props;
           </CardHeader>
           <CardFooter className="flex flex-wrap gap-2">
             {item.tags.map((tag) => (
-              <Badge variant={tag.variant}>{tag.name}</Badge>
+              <Badge variant={isValidBadgeVariant(tag.variant) ? tag.variant : "default"}>{tag.name}</Badge>
             ))}
           </CardFooter>
         </Card>
